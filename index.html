@@ -14,29 +14,40 @@
 </head>
 
 <body class="font-[inter]">
-    <section class="max-w-full h-[5.75rem] bg-[rgba(26,11,46,1)] border-b-[1px] border-b-[rgba(65,37,103,1)]">
+    <!-- Navbar -->
+    <section>
+        <nav class="bg-[#1A0B2E]">
 
-        <nav class="flex justify-between items-center">
-            <div class="animate-pulse">
-                <H2 class="ml-[12.5rem] mt-[1rem] font-bold text-5xl"><span class="text-white">Tech</span><span
-                        class="text-[#FB09B4]">wave</span>
-                </H2>
+            <!-- Mobile Navbar -->
+            <div class="flex lg:hidden w-full items-center justify-between px-4 py-3 h-[60px]">
+                <h2 class="font-bold text-3xl">
+                    <span class="text-white">Tech</span>
+                    <span class="text-[#FB09B4]">wave</span>
+                </h2>
+                <img src="./assets/hamburger-menu.png" class="w-6 h-6 cursor-pointer" />
             </div>
 
-            <div class="items-center text-center mt-[1.5rem]">
-                <ul class="flex text-white gap-[32px] animate-pulse">
+            <!-- PC Navbar -->
+            <div class="hidden lg:flex items-center justify-between px-12 py-6">
+
+                <h2 class="font-bold text-5xl">
+                    <span class="text-white">Tech</span>
+                    <span class="text-[#FB09B4]">wave</span>
+                </h2>
+
+                <ul class="flex gap-8 text-white">
                     <li>About</li>
                     <li>Episodes</li>
                     <li>Host</li>
                 </ul>
-            </div>
-            <div
-                class="mr-[12.5rem] mt-[1.5rem] bg-gradient-to-r from-pink-500 to-purple-600 text-white font-normal py-3 px-6 rounded-full shadow-lg animate-bounce">
-                <button>Subscribe</button>
+                <button
+                    class="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-3 px-6 rounded-full shadow-lg">
+                    Subscribe
+                </button>
             </div>
         </nav>
-
     </section>
+
     <section class="max-w-full h-[47.5rem] bg-[rgba(26,11,46,1)] bg-[url('assets/hero-bg.png')] pt-[101px]">
         <div class="w-[350px] h-[350px] mr-[625px] ml-[625px]">
             <img src="./assets/hero-circle.png">
@@ -48,8 +59,11 @@
         <div class="flex justify-center">
             <button
                 class="w-[201px] h-[44px] flex bg-gradient-to-r from-pink-500 to-purple-600 text-white font-normal py-3 px-6 rounded-full shadow-lg animate-pulse"><img
-                    src="./assets/spotify.png">   <hr>  Listen on Spotify</button>
-            <button class="flex [rgba(0,255,136,1)] w-[147px] h-[44px] rounded-[1000px] text-[rgba(0,255,136,1)]"><img src="./assets/message.png" class="w-[12px] h-[12px]">Subscribe</button>
+                    src="./assets/spotify.png">
+                <hr> Listen on Spotify
+            </button>
+            <button class="flex [rgba(0,255,136,1)] w-[147px] h-[44px] rounded-[1000px] text-[rgba(0,255,136,1)]"><img
+                    src="./assets/message.png" class="w-[12px] h-[12px]">Subscribe</button>
         </div>
     </section>
     <section class="max-w-full h-[40.375rem] bg-[rgba(26,11,46,1)] pt-[50px] pr-[200px] pb-[120px] pl-[200px]">
