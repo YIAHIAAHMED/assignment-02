@@ -16,19 +16,20 @@
 <body class="font-[inter]">
     <section class="max-w-full h-[5.75rem] bg-[rgba(26,11,46,1)] border-b-[1px] border-b-[rgba(65,37,103,1)]">
 
-        <nav class="flex justify-between">
-            <div class="">
-                <H2 class="ml-[12.5rem]"><span class="text-white">Tech</span><span class="text-white">wave</span>
+        <nav class="flex justify-between items-center">
+            <div class="animate-pulse">
+                <H2 class="ml-[12.5rem] mt-[1rem] font-bold text-5xl"><span class="text-white">Tech</span><span class="text-[#FB09B4]">wave</span>
                 </H2>
             </div>
-            <div class="">
-                <ul class="flex text-white">
+            
+            <div class="items-center text-center mt-[1.5rem]">
+                <ul class="flex text-white gap-[32px] animate-pulse">
                     <li>About</li>
                     <li>Episodes</li>
                     <li>Host</li>
                 </ul>
             </div>
-            <div class="mr-[12.5rem] text-white">
+            <div class="mr-[12.5rem] mt-[1.5rem] bg-gradient-to-r from-pink-500 to-purple-600 text-white font-normal py-3 px-6 rounded-full shadow-lg animate-bounce"> 
                 <button>Subscribe</button>
             </div>
         </nav>
@@ -38,17 +39,17 @@
         <div class="w-[350px] h-[350px] mr-[625px] ml-[625px]">
             <img src="./assets/hero-circle.png">
         </div>
-        <div class="">
-            <h2 class="text-[rgba(255,255,255,1)] font-extrabold">TechWave</h2>
+        <div class="text-center text-white">
+            <h2 class="text-5xl font-extrabold">TechWave</h2>
             <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
         </div>
-        <div class="">
-            <button class="text-white"><img src="./assets/spotify.png">Listen on Spotify</button>
-            <button class="text-[rgba(0,255,136,1)]"><img src="./assets/message.png">Subscribe</button>
+        <div class="flex justify-center">
+            <button class="text-white flex"><img src="./assets/spotify.png">Listen on Spotify</button>
+            <button class="flex [rgba(0,255,136,1)]"><img src="./assets/message.png">Subscribe</button>
         </div>
     </section>
     <section class="max-w-full h-[40.375rem] bg-[rgba(26,11,46,1)] pt-[50px] pr-[200px] pb-[120px] pl-[200px]">
-        <div class="">
+        <div class="text-center">
             <h2 class="text-white font-bold text-5xl">About the Podcast</h2>
             <p class="text-white">TechWave is your go-to podcast for staying ahead in the fast-paced world of
                 technology.<br>
@@ -56,7 +57,7 @@
                 work, <br>
                 and share stories of personal growth from industry leaders.<br>
             </p>
-            <p class="text-white">Join thousands of young professionals and tech enthusiasts who start their day with
+            <p class="text-white pb-[120px]">Join thousands of young professionals and tech enthusiasts who start their day with
                 TechWave.</p>
         </div>
         <div class="flex justify-between">
@@ -123,12 +124,12 @@
     </section>
     <section class="max-w-full h-[70rem] bg-[rgba(26,11,46,1)] pt-[120px] pr-[200px] pb-[120px] pl-[200px]">
         <div class="">
-            <h2>Featured Episodes</h2>
-            <div class="flex gap-[20px]">
-                <div class="relative w-[380px] h-[440px] bg-[rgba(37,13,68,1)]">
+            <h2 class="text-center font-bold text-[3rem] text-white mb-[40px]">Featured Episodes</h2>
+            <div class="">
+                <div class="relative w-[380px] h-[440px] bg-[rgba(37,13,68,1)] flex gap-[20px]">
 
-
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/ngUPIhogFy8?autoplay=1&mute=1"
+                    <!-- 01 -->
+                    <iframe  width="380" height="440" src="https://www.youtube.com/embed/ngUPIhogFy8?si=HtStG_RZemzt00rJ"
                         allow="encrypted-media" allowfullscreen>
                     </iframe>
                     <div class="ml-[150px]">
@@ -137,8 +138,8 @@
 
 
                     <span class="absolute bottom-2 right-2 text-[rgba(0,255,136,1)] 
-               text-xs px-2 py-1 rounded 
-               pointer-events-none">
+                        text-xs px-2 py-1 rounded 
+                        pointer-events-none">
                         3:05 min
                     </span>
                     <div class="absolute bottom-0 left-0 w-full text-white px-3 py-2 pointer-events-none">
@@ -150,7 +151,48 @@
                                 in the next decade.</p>
                         </div>
                     </div>
-                   
+                    <!-- 02 -->
+                      <iframe width="380" height="440" src="https://www.youtube.com/embed/TBoj5AIbVyo?si=SzWlNwIsmyApNhIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <div class="ml-[150px]">
+                        <img src="./assets/youtube-podcast.png" class="absolute top-50">
+                    </div>
+
+
+                    <span class="absolute bottom-2 right-2 text-[rgba(0,255,136,1)] 
+                        text-xs px-2 py-1 rounded 
+                        pointer-events-none">
+                        3:05 min
+                    </span>
+                    <div class="absolute bottom-0 left-0 w-full text-white px-3 py-2 pointer-events-none">
+
+                        <h2 class="font-bold text-[1.5rem]">The Future of AI in Everyday Life</h2>
+                        <div class="">
+                            <p class="font-normal">Exploring how artificial intelligence is transforming our daily
+                                routines and what to expect
+                                in the next decade.</p>
+                        </div>
+                    </div>
+                    <!-- 03 -->
+                    <iframe width="380" height="440" src="https://www.youtube.com/embed/_LWcZoOpgLM?si=djh75g7ZzZsV1BCF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     <div class="ml-[150px]">
+                        <img src="./assets/youtube-podcast.png" class="absolute top-50">
+                    </div>
+
+
+                    <span class="absolute bottom-2 right-2 text-[rgba(0,255,136,1)] 
+                        text-xs px-2 py-1 rounded 
+                        pointer-events-none">
+                        3:05 min
+                    </span>
+                    <div class="absolute bottom-0 left-0 w-full text-white px-3 py-2 pointer-events-none">
+
+                        <h2 class="font-bold text-[1.5rem]">The Future of AI in Everyday Life</h2>
+                        <div class="">
+                            <p class="font-normal">Exploring how artificial intelligence is transforming our daily
+                                routines and what to expect
+                                in the next decade.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="">
