@@ -47,13 +47,16 @@
             </div>
         </nav>
     </section>
+    <!-- Hero Section -->
+    <section class="h-[29rem] lg:h-[47.5rem] bg-[url('./assets/hero-bg.png')] bg-cover bg-center pt-[101px]">
 
-    <section class="max-w-full h-[47.5rem] bg-[rgba(26,11,46,1)] bg-[url('assets/hero-bg.png')] pt-[101px]">
-        <div class="w-[350px] h-[350px] mr-[625px] ml-[625px]">
-            <img src="./assets/hero-circle.png">
+        <div class="relative w-64 h-64 mx-auto">
+            <img src="./assets/hero-circle.png" class="w-full h-full" />
+            <img src="./assets/microphone.png"
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24" />
         </div>
         <div class="text-center text-white">
-            <h2 class="text-5xl font-extrabold">TechWave</h2>
+            <h2 class="lg:text-5xl text-[2.5rem] font-bold lg:font-extrabold">TechWave</h2>
             <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
         </div>
         <div class="flex justify-center">
@@ -65,183 +68,206 @@
             <button class="flex [rgba(0,255,136,1)] w-[147px] h-[44px] rounded-[1000px] text-[rgba(0,255,136,1)]"><img
                     src="./assets/message.png" class="w-[12px] h-[12px]">Subscribe</button>
         </div>
+
     </section>
-    <section class="max-w-full h-[40.375rem] bg-[rgba(26,11,46,1)] pt-[50px] pr-[200px] pb-[120px] pl-[200px]">
-        <div class="text-center">
-            <h2 class="text-white font-bold text-5xl">About the Podcast</h2>
-            <p class="text-white">TechWave is your go-to podcast for staying ahead in the fast-paced world of
-                technology.<br>
-                We break down complex topics into digestible insights, explore productivity strategies that actually
-                work, <br>
-                and share stories of personal growth from industry leaders.<br>
+
+    <section class="bg-[rgba(26,11,46,1)] py-[120px] px-4 sm:px-8 lg:px-[200px]">
+
+        <div class="text-center max-w-3xl mx-auto">
+            <h2 class="text-white font-normal text-3xl lg:text-5xl">
+                About the Podcast
+            </h2>
+
+            <p class="text-white mt-4 leading-relaxed">
+                TechWave is your go-to podcast for staying ahead in the fast-paced world of
+                technology. We break down complex topics into digestible insights, explore
+                productivity strategies that actually work, and share stories of personal
+                growth from industry leaders.
             </p>
-            <p class="text-white pb-[120px]">Join thousands of young professionals and tech enthusiasts who start their
-                day with
-                TechWave.</p>
+
+            <p class="text-white mt-6">
+                Join thousands of young professionals and tech enthusiasts who start their
+                day with TechWave.
+            </p>
         </div>
-        <div class="flex justify-between">
-            <div class="">
+
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-10 mt-20 text-center">
+            <div>
                 <h2 class="text-5xl font-black text-[rgba(0,255,136,1)]">150K+</h2>
-                <h3 class="text-[rgba(255,255,255,1)] font-normal text-base uppercase">Monthly Listeners</h3>
+                <h3 class="text-white uppercase text-sm">Monthly Listeners</h3>
             </div>
-            <div class="">
+
+            <div>
                 <h2 class="text-5xl font-black text-[rgba(0,255,136,1)]">200K+</h2>
-                <h3 class="text-[rgba(255,255,255,1)] font-normal text-base uppercase">Episodes Published</h3>
+                <h3 class="text-white uppercase text-sm">Episodes Published</h3>
             </div>
-            <div class="">
-                <h2 class="text-5xl font-black text-[rgba(0,255,136,1)]">4.9<span>★</span></h2>
-                <h3 class="text-[rgba(255,255,255,1)] font-normal text-base uppercase">Average Rating</h3>
+
+            <div>
+                <h2 class="text-5xl font-black text-[rgba(0,255,136,1)]">
+                    4.9<span class="text-lg ml-1">★</span>
+                </h2>
+                <h3 class="text-white uppercase text-sm">Average Rating</h3>
             </div>
-            <div class="">
+
+            <div>
                 <h2 class="text-5xl font-black text-[rgba(0,255,136,1)]">50K+</h2>
-                <h3 class="text-[rgba(255,255,255,1)] font-normal text-base uppercase">Industry Experts</h3>
-            </div>
-        </div>
-    </section>
-    <section class="max-w-full h-[70rem] bg-[rgba(35,14,61,1)] pt-[120px] pr-[200px] pb-[120px] pl-[200px]">
-        <div class="">
-            <h2 class="text-5xl font-bold text-white text-center">Why Choose TechWave</h2>
-        </div>
-        <div class="grid grid-rows-3 grid-cols-3 gap-x-[2rem] gap-y-[2rem] mt-[2.5rem]">
-            <div class="row-span-2 bg-[rgba(53,17,101,0.4)] w-[380px] h-[480px] p-[40px]">
-                <div class="mt-[107px]">
-                    <img src="./assets/headphone.png">
-                </div>
-
-                <h2 class="text-white font-bold text-2xl text-left">Premium Audio Quality</h2>
-                <p class="text-white font-normal text-base mt-[16px]">Experience crystal-clear sound with
-                    professional-grade recording equipment and expert audio engineering. Every episode is mastered for
-                    optimal listening across all devices and platforms.</p>
-            </div>
-            <div class="col-span-2 bg-[rgba(53,17,101,0.4)] w-[790px] h-[225px] p-[40px]">
-                <img src="./assets/device.png">
-                <h2 class="text-white font-bold text-2xl text-left">Mobile Friendly</h2>
-                <p class="text-white font-normal text-base mt-[16px]">Listen on the go with seamless mobile experience
-                    and offline downloads.</p>
-            </div>
-            <div class="col-span-2 bg-[rgba(53,17,101,0.4)] w-[790px] h-[225px] p-[40px]">
-                <img src="./assets/location.png">
-                <h2 class="text-white font-bold text-2xl text-left">Global Community</h2>
-                <p class="text-white font-normal text-base mt-[16px]">Connect with tech enthusiasts from over 120
-                    countries worldwide.</p>
-            </div>
-            <div class="col-span-2 bg-[rgba(53,17,101,0.4)] w-[790px] h-[273px] p-[40px]">
-                <img src="./assets/excusive.png">
-                <h2 class="text-white font-bold text-2xl text-left">Exclusive Interviews</h2>
-                <p class="text-white font-normal text-base mt-[16px]">Get unprecedented access to industry titans,
-                    startup founders, and tech visionaries. Our <br>host secures exclusive conversations you won't find
-                    anywhere else, diving deep into their <br>journeys, failures, and success strategies.</p>
-            </div>
-            <div class="row-span-1 col-span-1 pl-[40px] pr-[40px] bg-[rgba(53,17,101,0.4)] w-[380px] h-[273px]">
-                <img src="./assets/resource.png">
-                <h2 class="text-white font-bold text-2xl text-left">Rich Resources</h2>
-                <p class="text-white font-normal text-base mt-[16px]">Access show notes, transcripts, and additional
-                    learning materials for every episode.</p>
+                <h3 class="text-white uppercase text-sm">Industry Experts</h3>
             </div>
         </div>
 
     </section>
-    <section class="max-w-full h-[70rem] bg-[rgba(26,11,46,1)] pt-[120px] pr-[200px] pb-[120px] pl-[200px]">
-        <div class="">
-            <h2 class="text-center font-bold text-[3rem] text-white mb-[40px]">Featured Episodes</h2>
-            <div class="">
-                <div class="relative w-[380px] h-[440px] bg-[rgba(37,13,68,1)] flex gap-[20px]">
 
-                    <!-- 01 -->
-                    <iframe width="380" height="440" src="https://www.youtube.com/embed/ngUPIhogFy8?si=HtStG_RZemzt00rJ"
-                        allow="encrypted-media" allowfullscreen>
-                    </iframe>
-                    <div class="ml-[150px]">
-                        <img src="./assets/youtube-podcast.png" class="absolute top-50">
-                    </div>
+    <section class="w-full bg-[rgba(35,14,61,1)] py-24 px-6 lg:px-[200px]">
+        <h2 class="text-5xl font-bold text-white text-center mb-10">
+            Why Choose TechWave
+        </h2>
 
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                    <span class="absolute bottom-2 right-2 text-[rgba(0,255,136,1)] 
-                        text-xs px-2 py-1 rounded 
-                        pointer-events-none">
-                        3:05 min
-                    </span>
-                    <div class="absolute bottom-0 left-0 w-full text-white px-3 py-2 pointer-events-none">
-
-                        <h2 class="font-bold text-[1.5rem]">The Future of AI in Everyday Life</h2>
-                        <div class="">
-                            <p class="font-normal">Exploring how artificial intelligence is transforming our daily
-                                routines and what to expect
-                                in the next decade.</p>
-                        </div>
-                    </div>
-                    <!-- 02 -->
-                    <iframe width="380" height="440" src="https://www.youtube.com/embed/TBoj5AIbVyo?si=SzWlNwIsmyApNhIE"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <div class="ml-[150px]">
-                        <img src="./assets/youtube-podcast.png" class="absolute top-50">
-                    </div>
-
-
-                    <span class="absolute bottom-2 right-2 text-[rgba(0,255,136,1)] 
-                        text-xs px-2 py-1 rounded 
-                        pointer-events-none">
-                        3:05 min
-                    </span>
-                    <div class="absolute bottom-0 left-0 w-full text-white px-3 py-2 pointer-events-none">
-
-                        <h2 class="font-bold text-[1.5rem]">The Future of AI in Everyday Life</h2>
-                        <div class="">
-                            <p class="font-normal">Exploring how artificial intelligence is transforming our daily
-                                routines and what to expect
-                                in the next decade.</p>
-                        </div>
-                    </div>
-                    <!-- 03 -->
-                    <iframe width="380" height="440" src="https://www.youtube.com/embed/_LWcZoOpgLM?si=djh75g7ZzZsV1BCF"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <div class="ml-[150px]">
-                        <img src="./assets/youtube-podcast.png" class="absolute top-50">
-                    </div>
-
-
-                    <span class="absolute bottom-2 right-2 text-[rgba(0,255,136,1)] 
-                        text-xs px-2 py-1 rounded 
-                        pointer-events-none">
-                        3:05 min
-                    </span>
-                    <div class="absolute bottom-0 left-0 w-full text-white px-3 py-2 pointer-events-none">
-
-                        <h2 class="font-bold text-[1.5rem]">The Future of AI in Everyday Life</h2>
-                        <div class="">
-                            <p class="font-normal">Exploring how artificial intelligence is transforming our daily
-                                routines and what to expect
-                                in the next decade.</p>
-                        </div>
-                    </div>
-                </div>
+            <!-- Big Card -->
+            <div class="lg:row-span-2 bg-[rgba(53,17,101,0.4)] p-10 rounded-xl">
+                <img src="./assets/headphone.png" class="mb-6">
+                <h3 class="text-white font-bold text-2xl mb-4">Premium Audio Quality</h3>
+                <p class="text-white text-base">
+                    Experience crystal-clear sound with professional-grade recording equipment.
+                </p>
             </div>
-            <div class="">
-                <h2 class="text-center font-bold text-5xl text-white mb-[40px] mt-[120px]">Meet the Host</h2>
+
+            <!-- Card -->
+            <div class="lg:col-span-2 bg-[rgba(53,17,101,0.4)] p-10 rounded-xl">
+                <img src="./assets/device.png" class="mb-4">
+                <h3 class="text-white font-bold text-2xl mb-3">Mobile Friendly</h3>
+                <p class="text-white">Seamless mobile experience and offline downloads.</p>
             </div>
-            <div class="flex bg-[rgba(53,17,101,0.4)] lg:w-[1180px]">
-                <div class="">
-                    <img src="./assets/host.png">
-                </div>
-                <div class="">
-                    <h2 class="text-left font-bold text-[2rem] text-white">Alex Kumar</h2>
-                    <p class="text-white font-normal text-base mt-[16px]">Tech entrepreneur, productivity expert, and
-                        lifelong learner. Alex has been in the tech industry for over 10 years, <br>working with
-                        startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders
-                        and <br>practical advice for anyone looking to grow in tech.</p>
-                    <div class="flex gap-[10px] w-[20px] h-[20px] mt-[16px]">
-                        <img src="./assets/linkedin.png">
-                        <img src="./assets/x.png">
-                        <img src="./assets/instagram.png">
-                        <img src="./assets/youtube.png">
-                    </div>
-                </div>
+
+            <div class="lg:col-span-2 bg-[rgba(53,17,101,0.4)] p-10 rounded-xl">
+                <img src="./assets/location.png" class="mb-4">
+                <h3 class="text-white font-bold text-2xl mb-3">Global Community</h3>
+                <p class="text-white">Connect with tech enthusiasts from 120+ countries.</p>
             </div>
+
+            <div class="bg-[rgba(53,17,101,0.4)] p-10 rounded-xl">
+                <img src="./assets/resource.png" class="mb-4">
+                <h3 class="text-white font-bold text-2xl mb-3">Rich Resources</h3>
+                <p class="text-white">Show notes, transcripts, and learning materials.</p>
+            </div>
+
+        </div>
     </section>
+
+    <section class="w-full bg-[rgba(26,11,46,1)] py-24 px-4 md:px-12 lg:px-[200px]">
+
+        <!--Episodes -->
+        <h2 class="text-center font-bold text-4xl md:text-5xl text-white mb-12">
+            Featured Episodes
+        </h2>
+
+        <div class="flex flex-wrap justify-center gap-8">
+
+            <!-- CARD 01 -->
+            <div class="relative w-[380px] h-[440px] bg-[rgba(37,13,68,1)] rounded-xl overflow-hidden">
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/ngUPIhogFy8" allowfullscreen></iframe>
+
+                <!-- Play Icon -->
+                <img src="./assets/youtube-podcast.png"
+                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 pointer-events-none">
+
+                <!-- Duration -->
+                <span class="absolute bottom-3 right-3 text-[#00FF88] text-xs bg-black/60 px-2 py-1 rounded">
+                    3:05 min
+                </span>
+
+                <!-- Text -->
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white p-4">
+                    <h3 class="font-bold text-lg">The Future of AI in Everyday Life</h3>
+                    <p class="text-sm mt-1">
+                        Exploring how artificial intelligence is transforming our daily routines.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 02 -->
+            <div class="relative w-[380px] h-[440px] bg-[rgba(37,13,68,1)] rounded-xl overflow-hidden">
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/TBoj5AIbVyo" allowfullscreen></iframe>
+
+                <img src="./assets/youtube-podcast.png"
+                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 pointer-events-none">
+
+                <span class="absolute bottom-3 right-3 text-[#00FF88] text-xs bg-black/60 px-2 py-1 rounded">
+                    4:20 min
+                </span>
+
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white p-4">
+                    <h3 class="font-bold text-lg">Tech Trends 2026</h3>
+                    <p class="text-sm mt-1">
+                        Key technologies that will shape the future.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 03 -->
+            <div class="relative w-[380px] h-[440px] bg-[rgba(37,13,68,1)] rounded-xl overflow-hidden">
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/_LWcZoOpgLM" allowfullscreen></iframe>
+
+                <img src="./assets/youtube-podcast.png"
+                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 pointer-events-none">
+
+                <span class="absolute bottom-3 right-3 text-[#00FF88] text-xs bg-black/60 px-2 py-1 rounded">
+                    5:10 min
+                </span>
+
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white p-4">
+                    <h3 class="font-bold text-lg">Building a Startup</h3>
+                    <p class="text-sm mt-1">
+                        Lessons learned from real-world experience.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Meet the Host-->
+        <h2 class="text-center font-bold text-4xl md:text-5xl text-white mt-28 mb-12">
+            Meet the Host
+        </h2>
+
+        <div
+            class="flex flex-col lg:flex-row items-center gap-8 bg-[rgba(53,17,101,0.4)] rounded-xl p-8 max-w-[1180px] mx-auto">
+
+            <!-- Host Image -->
+            <img src="./assets/host.png" class="w-[260px]">
+
+            <!-- Host -->
+            <div>
+                <h3 class="text-2xl font-bold text-white">Alex Kumar</h3>
+
+                <p class="text-white text-base mt-4 leading-relaxed">
+                    Tech entrepreneur, productivity expert, and lifelong learner. Alex has been
+                    in the tech industry for over 10 years, working with startups and Fortune 500 companies.
+                    Through TechWave, Alex shares insights from industry leaders and practical advice
+                    for anyone looking to grow in tech.
+                </p>
+
+                <!--Icons -->
+                <div class="flex gap-4 mt-4">
+                    <img src="./assets/linkedin.png" class="w-5 h-5">
+                    <img src="./assets/x.png" class="w-5 h-5">
+                    <img src="./assets/instagram.png" class="w-5 h-5">
+                    <img src="./assets/youtube.png" class="w-5 h-5">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lg:hidden md:hidden bg-[rgba(35,14,61,1)] w-full h-[248px]">
+        <h2 class="font-bold text-3xl">
+            <span class="text-white">Tech</span>
+            <span class="text-[#FB09B4]">wave</span>
+        </h2>
+        <div class="grid grid-cols-2 grid-rows-2">
+            <div class=""></div>
+        </div>
+    </section>
+
 
 </body>
 
